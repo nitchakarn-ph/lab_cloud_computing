@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Registration</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata|Itim&display=swap" rel="stylesheet">
+</head>
+<style>
+	.bg-header{
+		background-color: #2c2f33;
+	}
+	.topic{
+		padding-top: 50px;
+		font-size: 50px;
+	}
+	.font-small {
+		font-size: 18px;
+	}
+	#paragraph1{
+		padding-top: 10px;
+		padding-left: 30px;
+	}
+	#paragraph2{
+		padding-left: 30px;
+	}
+	body {
+		font-family: 'Inconsolata', monospace;
+		/*font-family: 'Itim', cursive;*/
+    	font-size: 25px;
+    	color: #f5f6f7;
+  	}
+  	.bg-1 { 
+    	background-color: #7289da;
+    	color: #f5f6f7;
+  	}
+	a {
+		color: #f5f6f7;
+	}
+	a:hover {
+		text-decoration: none;
+  		background-color: none;
+		color: #2c2f33;
+	}
+	.footer {
+  		position: absolute;
+  		bottom: 0;
+  		width: 100%;
+	}
+	.full {
+		width: 100%;
+		height: 90%;
+		position: absolute;
+	}
+</style>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-header">
+		<a class="navbar-brand" style="font-size: 40px;">Database</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	  
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+			  <a class="nav-link" href="http://52.230.5.201/web/index.php">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="http://52.230.5.201/web/create.php">Add</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="http://52.230.5.201/web/showall.php">Show</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="http://52.230.5.201/web/editdata.php">Edit</a>
+			</li>
+		  </ul>
+		  <!--<form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		  </form>-->
+		</div>
+	  </nav>
+
+	<div class="container-fluid bg-1 full" style="font-size: 25px;">
+		<div class="container col-md-6 mt-md-0 mt-3">
+			<div class="topic"><b>Database Management</b></div>
+			<div id="paragraph1"><a href="http://52.230.5.201/web/create.php"><strong>Add Student</strong></a> - Add a Student</div>
+			<div id="paragraph2"><a href="http://52.230.5.201/web/showall.php"><strong>Show All Students</strong></a> - Show All the Students</div>
+			<div id="paragraph2"><a href="http://52.230.5.201/web/editdata.php"><strong>Edit Profile</strong></a> - Edit Profile</div>
+		</div>
+	</div>
+
+	<footer class="footer font-small bg-header text-light">
+		<div class="text-center py-3">cfdq © 2020 Copyright:
+		  
+		</div>
+		<!-- Copyright -->
+	  
+	  </footer>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</html>
